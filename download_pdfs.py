@@ -1,7 +1,7 @@
 import urllib.request
+from tqdm import tqdm
 
-for i in range(1, 5407):
-
+for i in tqdm(range(1, 5407), 'Downloading pages for dataset'):
     url = f'https://daf-yomi.com/Data/UploadedFiles/DY_Page/{i}.pdf'
 
     req = urllib.request.Request(url, headers={
