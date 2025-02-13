@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 from augraphy import *
 import os
-import tqdm
+from tqdm import tqdm
 
 
 PDF_DIR = 'pdfs'
