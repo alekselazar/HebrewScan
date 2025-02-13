@@ -1,3 +1,5 @@
 *.png
 /pdfs
-/dataset
+/inputs
+/outputs
+/augraphy_cache
